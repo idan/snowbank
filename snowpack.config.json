@@ -1,0 +1,6 @@
+{
+  "extends": "@snowpack/app-scripts-react",
+  "plugins": [
+    ["@snowpack/plugin-build-script", {"cmd": "postcss", "input": [".css"], "output": [".css"]}]
+  ]
+}
